@@ -332,10 +332,12 @@ namespace Shapes
         {
         }
 
-        new public void draw()
+        override public void draw()
         {
             base.draw();
             Console.Write(" [This is a dashed Line.] ");
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 
@@ -346,10 +348,12 @@ namespace Shapes
         {
         }
 
-        public void draw()
+        override public void draw()
         {
             base.draw();
             Console.Write(" [This is a super bold line.] ");
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 
